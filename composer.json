@@ -1,0 +1,15 @@
+{
+    "require": {
+        "cboden/ratchet": "^0.3.4",
+        "illuminate/database": "^5.2",
+        "illuminate/events": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "ChatApp\\": "src"
+        },
+        "files": [
+            "src/setup_eloquent.php"
+        ]
+    }
+}
